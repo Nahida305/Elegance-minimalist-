@@ -53,3 +53,42 @@ li :hover{
     background-color: rgb(86, 206, 239);
 }
 /* navbar ends */
+
+/* image starts */
+img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+/* image ends */
+
+/* Button design starts */
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.buttonBox{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* button design ends */
+
+/* button click texts  */
+.infoText{
+    font-size: 30px;
+    text-align: center;
+}
